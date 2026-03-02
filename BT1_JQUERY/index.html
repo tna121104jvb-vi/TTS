@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+    <header>
+        <div class="content top-header">
+            <h1 class="h1">Danh sách các môn học đã đăng kí
+            </h1>
+            <a href="nav-link">
+                <span>
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                </span>
+                Đăng xuất</a>
+        </div>
+
+    </header>
+    <main class="content">
+        <section class="wrapper">
+            <form action="">
+                <h2>Thông tin đăng kí</h2>
+                <div class="input-group">
+                    <label for="name">Họ và tên</label>
+                    <input type="text" placeholder="Họ và tên">    
+                </div>
+                <div class="input-grid">
+                    <div class="input-group">
+                        <label for="Giới tính">Giới tính</label>
+                            <select name="gioitinh" id="">
+                                <option value="">Chọn...</option>
+                                <option value="Nam">Nam</option>
+                                <option value="Nữ">Nữ</option>
+                                <option value="Khác">Khác</option>
+                            </select>
+                        
+                    </div>
+                    <div class="input-group">
+                        <label for="age">
+                            Tuổi <span style="color: red; font-weight: bolder;">*</span>
+                        </label>
+                        <input type="number" placeholder="20">
+
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label for="Emai">Email</label>
+                    <input type="email">
+                </div>
+                <div class="input-group">
+                    <label for="">Địa chỉ</label>
+                    <textarea name="" id="" rows="5" placeholder="Địa chỉ" ></textarea>
+                </div>
+                <input type="submit" value="Đăng nhập">
+            </form>
+            <div class="right-content">
+            <div class="top-content">
+                <h2>Danh sách đã đăng kí thành công</h2>
+                <span>0 mục</span>
+            </div>
+            <table>
+                <tr>
+                    <th>Stt</th>
+                    <th>Họ và tên</th>
+                    <th>Giới tính</th>
+                    <th>Tuổi</th>
+                    <th>Mail</th>
+                    <th>Địa chỉ</th>
+                    <th>Xóa</th>
+                </tr>
+                <tr>
+                    <td colspan="7" style="text-align: center; padding: 78px 0;color: #ccc;">
+                        Chưa có dữ liệu đăng kí thành công
+                    </td>
+                </tr>
+            </table>
+        </div>
+        </section>
+        
+    </main>
+</body>
+</html>
